@@ -1,0 +1,27 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers: {}
+
+  ../../packages/test:
+    specifiers:
+      lodash: 4.17.21
+      typescript: 4.6.3
+    dependencies:
+      lodash: 4.17.21
+    devDependencies:
+      typescript: 4.6.3
+
+packages:
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
+
+  /typescript/4.6.3:
+    resolution: {integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
